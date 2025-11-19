@@ -1,12 +1,6 @@
-export function arrayToOneString(arr) {
-  let result = '';
-  for (let i = 0; i < arr.length; i++) {
-    result += arr[i];
-  }
-  return result;
-};
-
-
+import {
+  arrayToOneString
+} from '../array/array.merge.js'
 
 export function emailHideWithSymbol(
   email = '',

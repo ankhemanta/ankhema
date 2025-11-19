@@ -1,3 +1,7 @@
+ ## Help for save time 
+ 
+
+
 ## 🔌 🖥️ How To Install 
 ```brush
    npm install ankhema 
@@ -20,6 +24,8 @@ ___
 11. **emailHideWithSymbol,**
 12. **emailHide,**
 13. **arrayToOneString**
+14. **arrayFindBoolean**
+15. **capatilcapitizeFirstLetter**
 -----
 
 
@@ -40,7 +46,9 @@ import {
   getRamdomKey,
   emailHideWithSymbol,
   emailHide,
-  arrayToOneString
+  arrayToOneString,
+  arrayFindBoolean,
+  capatilcapitizeFirstLetter
 } from 'ankhema';
 ```
 
@@ -154,3 +162,78 @@ Click And  View How To Use
       // note : array object not supported 
   ``` 
 </details>  
+
+
+___
+### 🔧 Array To Find 
+<details>
+<summary>
+<b>
+Click And  View How To Use
+</b>
+</summary>
+
+  ```javascript 
+    //Array 
+    const aray =[
+      {
+        key: "one"
+      },
+      {
+        key: "two"
+      },
+      {
+        key: "three"
+      }
+    ]
+       
+        //but this array not working 
+        // const array =["apple", "orange", "watermelon", "lemon"] ✖️ not working 
+      
+      arrayFindBoolean(
+        array, // Array
+        "key", // find object key name
+        "two" // find object key value
+      );
+      //OUTPUT : true 
+      // note : nesty object not supported 
+  ``` 
+</details>  
+
+
+___
+
+### 🔧 Capatil String First Letter
+<details>
+<summary>
+<b>
+Click And  View How To Use
+</b>
+</summary>
+
+  ```javascript 
+    //Array 
+    const string= "ankhema"
+    capatilcapitizeFirstLetter(string);
+    
+    //OUTPUT Ankhema
+    
+  ``` 
+</details>  
+
+
+
+__
+
+
+
+## Property are getting 
+|       function           |    props       |   typeprops       |
+|--------------------------|----------------|-------------------|
+| generatRandomUserId      |  length        |   number          |
+| getRandomUserId          |  length        |   number          |
+| getRandomUserId          |  length        |   number          |
+| getRamdomKey             |  length        |   number          |
+| emailHide                |  email,  length, symbol    |  email , number, symbol |
+  
+

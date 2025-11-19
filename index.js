@@ -7,9 +7,21 @@ import {
 } from './generator/number.generator.js';
 import {
   emailHideWithSymbol,
-  arrayToOneString,
   emailHide
 } from './hide/hideemail.js'
+import {
+  arrayToOneString,
+
+} from './array/array.merge.js'
+import {
+  arrayFindBoolean
+} from './array/array.find.js'
+
+import {
+  capatilcapitizeFirstLetter
+} from './text/name.js'
+
+
 
 
 
@@ -29,4 +41,6 @@ export {
   arrayToOneString,
   emailHideWithSymbol,
   emailHide,
+
+  arrayFindBoolean
 }
