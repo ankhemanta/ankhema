@@ -5,6 +5,14 @@
   "keywords": [
     "ankhema"
   ],
+  "homepage": "https://github.com/ankhemanta/ankhema#readme",
+  "bugs": {
+    "url": "https://github.com/ankhemanta/ankhema/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankhemanta/ankhema.git"
+  },
   "license": "MIT",
   "author": "Hemanta Ankura",
   "type": "commonjs",
