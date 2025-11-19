@@ -4,7 +4,8 @@
   "description": "",
   "type": "module",
   "keywords": [
-    "ankhema"
+    "ankhema", "generatRandomUserId", "generatRandomId", "randomNumberInRange", "generatRandomText", "genRandomKey", "getRandomUserId", "getRandomId",
+  "getNumInRange","getRandomText","getRamdomKey", "arrayToOneString", "emailHideWithSymbol", "emailHide", "arrayFindBoolean"
   ],
   "homepage": "https://github.com/ankhemanta/ankhema#readme",
   "bugs": {
