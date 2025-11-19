@@ -7,7 +7,8 @@ import {
 } from './generator/number.generator.js';
 import {
   emailHideWithSymbol,
-  arrayToString
+  arrayToOneString,
+  emailHide
 } from './hide/hideemail.js'
 
 
@@ -24,10 +25,8 @@ export {
   randomNumberInRange as getNumInRange,
   generatRandomText as getRandomText,
   genRandomKey as getRamdomKey,
-  
-arrayToString,
-  emailHideWithSymbol,
-  emailHideWithSymbol as emailHide,
-  
 
+  arrayToOneString,
+  emailHideWithSymbol,
+  emailHide,
 }
