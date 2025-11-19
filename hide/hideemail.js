@@ -1,3 +1,11 @@
+export function arrayToString(arr) {
+  let result = '';
+  for (let i = 0; i < arr.length; i++) {
+    result += arr[i];
+  }
+  return result;
+};
+
 
 
 export function emailHideWithSymbol(

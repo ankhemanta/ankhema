@@ -19,6 +19,7 @@ ___
 10. **getRamdomKey**
 11. **emailHideWithSymbol,**
 12. **emailHide,**
+13. **arrayToString**
 -----
 
 
@@ -38,6 +39,7 @@ import {
   getRandomText,
   getRamdomKey,
   emailHideWithSymbol,
+  arrayToString
   emailHide,
 } from 'ankhema';
 ```
